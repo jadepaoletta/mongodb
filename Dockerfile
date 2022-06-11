@@ -1,3 +1,3 @@
 FROM mongo:5.0
 
-RUN CHOWN /data/db
+RUN chown root:root /data/db
