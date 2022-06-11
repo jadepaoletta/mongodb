@@ -1,2 +1,3 @@
 FROM mongo:5.0
-USER mongodb
+
+RUN CHOWN /data/db
